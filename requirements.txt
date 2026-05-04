@@ -1,0 +1,30 @@
+# Friday AI Voice Assistant - Dependencies
+
+# LLM
+groq>=0.9.0
+
+# Speech-to-Text
+faster-whisper>=1.0.0
+
+# Text-to-Speech
+edge-tts>=6.1.0
+
+# Audio I/O
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# UI (legacy orb interface, still used by engine/assistant.py if needed)
+PyQt5>=5.15.0
+
+# HUD interface
+pygame>=2.5.0
+
+# System stats for HUD panels
+psutil>=5.9.0
+
+# Weather & location (used by HUD weather panel)
+requests>=2.31.0
